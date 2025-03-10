@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tópico 1 - HTML - Exemplo 3</title>
+    </head>
+    <body>
+        
+        <h1 style="text-align: center;">Renderizando imagens - caminhos absolutos e relativos</h1>
+
+
+        <div id="section_one">
+            <label>Renderização de imagem externa na página - https://cdn.gtranslate.net/flags/svg/it.svg </label>
+            <br>
+            <img src="https://cdn.gtranslate.net/flags/svg/it.svg" width="15%" height="15%">
+        </div>
+
+        <div>
+            <label>Renderização de imagem interna (armazenada no computador pelo caminho absoluto) - C:\Users\acer\Desktop\Helen\Faculdade\5º semestre\cpw\projeto_html_css_javascript-main\projeto_html_css_javascript-main\topico_1\html\imagens\bike.jpg </label>
+            <br>
+            <img src="C:\Users\acer\Desktop\Helen\Faculdade\5º semestre\cpw\projeto_html_css_javascript-main\projeto_html_css_javascript-main\topico_1\html\imagens\bike.jpg">
+            <!-- para vizualisar você precisa renderizar diretamente pelo navegador pois o live server limita o caminho--> 
+        </div>
+
+        <div>
+            <label>Renderização de imagem interna  (armazenada no computador pelo caminho relativo)- ../../imagens/ifsul_pf_logo.png  </label>
+            <br>
+            <img src="../../imagens/ifsul_pf_logo.png">
+        </div>
+
+        <div>
+            <label>Renderização de imagem interna (armazenada no computador pelo caminho relativo) - ./imagens/bike.jpg  </label>
+            <br>
+            <img src="./imagens/bike.jpg">
+        </div>
+
+        <div>
+            <label>Link contendo uma imagem - ./imagens/fnm.jpeg  </label>
+            <br>
+            <a href="https://pt.wikipedia.org/wiki/F%C3%A1brica_Nacional_de_Motores" target="_blank"> <!-- blank abre em uma nova aba e self na mesma -->               
+                <img src="./imagens/fnm.jpeg" alt="Caminhão nacional">
+            </a>
+        </div>
+
+
+        <div>
+
+            <p>Links para um elemento na mesma página</p>
+        
+            <p><a href="#section_one">Link para um elemento da própria página.</a></p>                        
+
+
+        </div>
+
+
+
+    </body>
+</html>
