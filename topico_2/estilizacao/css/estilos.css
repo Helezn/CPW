@@ -15,3 +15,13 @@
     font-weight: bold;
     text-align: center;
 }
+
+.novaclasse
+{
+    background-color: rgb(222, 141, 202);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 300px;/*largura do content*/                
+    height: auto;/*altura do content*/
+}
