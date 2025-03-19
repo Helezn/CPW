@@ -1,6 +1,6 @@
 # Introdução
 
-Olá! Meu nome é Helen, sou estudante da disciplina de CPW - Criação de Páginas Web do BCC - Bacharelado em Ciência da Computação. 
+Olá! Meu nome é Helen. Sou estudante da disciplina de CPW - Criação de Páginas Web do BCC - Bacharelado em Ciência da Computação. 
 Este é o repositório em que vou armazenar meus exercícios da matéria que é ministrada pelo Prô Telmo, o qual clonei o repositório.
 
 # Disciplina de Construção de Página Web - 2025
